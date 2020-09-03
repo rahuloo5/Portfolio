@@ -1,0 +1,51 @@
+.container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    border: solid .5px grey;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    height: 40px;
+    margin-bottom: 40px;
+    justify-items: center;
+   
+}
+.content {
+    position: relative;
+    overflow: hidden;
+    margin: 0.5rem 0 1 rem 0;
+    background-color: white;
+    border-radius: 2px;
+
+
+}
+
+.h4line{
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.Card{
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+}
+.down {
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 90px;
+    width : 95px
+}
